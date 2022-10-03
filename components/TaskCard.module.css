@@ -1,0 +1,29 @@
+.taskCard {
+    padding: 8px 16px;
+
+    border: 1px solid gainsboro;
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.title {
+    flex-grow: 1;
+}
+
+.title input {
+    border: none;
+    width: 100%;
+    outline: none;
+    padding: 4px;
+}
+
+.done {
+
+}
+
+.add button {
+    padding: 2px 8px;
+    cursor: pointer;
+}
